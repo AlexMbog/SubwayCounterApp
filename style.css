@@ -1,0 +1,81 @@
+.body{
+    background-image: url('images/subway.jpg');
+
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+.container
+{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #ccc;
+    opacity: 0.9;
+    box-shadow: #4c7aaf 0px 0px 10px;
+}
+.header-1{
+    color: rgb(29, 29, 29);
+    font-weight: bold;
+    font-size: 2em;
+}
+#count-el{
+    color: rgb(29, 29, 29);
+    font-weight: bold;
+    font-size: 3em;
+}
+.buttons-bottom {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+    padding: 20px;
+}
+button{
+    background-color: #6e0303; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 70px;
+}
+button:hover {
+    background-color: #4c7aaf; /* Darker green on hover */
+    box-shadow: #4c7aaf 0px 0px 10px;
+}
+button:active {
+    background-color: #3a5f8f; /* Even darker green on click */
+    box-shadow: #4c7aaf 0px 0px 10px;
+}
+button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(76, 122, 175, 0.5); /* Focus ring */
+}
+button:disabled {
+    background-color: #ccc; /* Greyed out */
+    cursor: not-allowed;
+    box-shadow: none; /* No shadow */
+}
+button:disabled:hover {
+    background-color: #ccc; /* No change on hover */
+}   
+
+  
+p{
+    color: rgb(29, 29, 29);
+    font-weight: bold;
+     position: relative;
+}
